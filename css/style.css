@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    color: #000;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.btn{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #0F4BB9;
+    border-radius: 100px;
+    padding: 12px 20px;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+}
+.btn:hover{
+    background-color: #fff;
+}
+/* top header css */
+
+.top_header{
+    padding: 8px 0;
+    background-color: #FAFAFA;
+}
+.top_header_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_header_left{
+    
+}
+.top_header_left ul{
+    display: flex;
+    align-items: center;
+}
+.top_header_left ul li{
+    margin-right: 20px;
+    
+}
+.top_header_left ul li:last-child a{
+ color: #0F4BB9;
+}
+.top_header_right{
+    
+}
+.top_header_right ul{
+    display: flex;
+    align-items: center;
+}
+.top_header_right ul li{
+    padding: 0 15px;
+    border-right: 1px solid #666666;
+}
+.top_header_right ul li:first-child{
+    padding-left: 0;
+}
+.top_header_right ul li:last-child{
+    padding-right: 0;
+    border-right: none;
+}
+.top_header_right ul li a{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    transition: 0.3s all ease-in-out;
+}
+.top_header_dropdown{
+
+}
+.top_header_dropdown p{
+
+}
+.top_header_dropdown ul{
+    display: flex;
+}
+.top_header_dropdown ul li{
+    padding: 0 15px;
+}
+.top_header_dropdown ul li a{
+    
+}
+.top_header_dropdown ul li a img{
+    max-width: 20px;
+}
+/* top header css */
+
+/* header css */
+header{
+
+}
+header .logo{
+    max-width: 80px;
+    height: 100%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    border-radius: 0;
+    display: inline-block;
+    padding: 24px 20px;
+    cursor: pointer;
+    margin: -9px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #212427;
+    line-height: 40px;
+    position: relative;
+    transition: .3s all ease-in-out;
+}
+.header_icon{
+
+}
+.header_icon ul{
+    display: flex;
+    align-items: center;
+}
+.header_icon ul li{
+padding: 0 10px;
+}
+.header_icon ul li a i{
+
+}
+/* header css */
+
+/* banner css */
+
+.banner{
+    background-image: url(../images/main-slider/slider1/slide1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .banner_conternt_wrapper{
+    display: flex;
+    align-items: center;
+    min-height: 770px;
+}
+.banner .banner_content{
+    max-width: 770px;
+}
+.banner .banner_content h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.banner .banner_content h1{
+    font-weight: 800;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner .banner_content p{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.banner .banner_content .btn{
+    padding: 25px 50px;
+}
+.banner .banner_content .btn i{
+    margin-right: 10px;
+}
+
+/* banner css */
